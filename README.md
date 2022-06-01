@@ -103,3 +103,20 @@ notes**, links to more reading, and more.
 
 _Paul and Rúnar_
 
+# Test
+
+add build.sbt
+
+```
+val scalaTest = "org.scalatest" %% "scalatest" % "3.2.7"
+```
+
+    > ./sbt
+    > project exercises
+    > compile
+    > ~testQuick
+
+## reference
+
+- https://kichijojipm.hatenablog.com/entry/2016/10/02/154725
+- https://www.scala-sbt.org/1.x/docs/sbt-by-example.html
